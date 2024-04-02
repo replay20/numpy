@@ -11,4 +11,13 @@ def zad2():
     listaInt = np.array(listaFloat,dtype='int64')
     print(listaInt)
 
-zad2()
+#zad2()
+
+def zad3(n):
+    if n>0 and isinstance(n,int):
+        return np.arange(1,n*n+1).reshape(n,n)
+    else:
+        return "Podano zla wartosc"
+
+
+print(zad3(5))
