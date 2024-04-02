@@ -20,4 +20,9 @@ def zad3(n):
         return "Podano zla wartosc"
 
 
-print(zad3(5))
+#print(zad3(5))
+
+def zad4(liczba,ilosc):
+    return np.logspace(0,ilosc-1, ilosc, base=liczba)
+
+#print(zad4(2,4))
